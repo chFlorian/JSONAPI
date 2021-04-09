@@ -12,6 +12,9 @@
 		04A342932618C11900783EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A342922618C11900783EA8 /* Assets.xcassets */; };
 		04A342962618C11900783EA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A342952618C11900783EA8 /* Preview Assets.xcassets */; };
 		04A342A32618C21A00783EA8 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A342A22618C21A00783EA8 /* ContentViewModel.swift */; };
+		04A342A72618CFEA00783EA8 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A342A62618CFEA00783EA8 /* APIService.swift */; };
+		04A812EC261AF96B004A67CA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A812EB261AF96B004A67CA /* User.swift */; };
+		04A812EF261AFFD0004A67CA /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A812EE261AFFD0004A67CA /* UserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		04A342952618C11900783EA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04A342972618C11900783EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A342A22618C21A00783EA8 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		04A342A62618CFEA00783EA8 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		04A812EB261AF96B004A67CA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		04A812EE261AFFD0004A67CA /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,7 @@
 		04A342A02618C20300783EA8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				04A812EB261AF96B004A67CA /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -100,6 +107,8 @@
 		04A342A12618C20800783EA8 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				04A342A62618CFEA00783EA8 /* APIService.swift */,
+				04A812EE261AFFD0004A67CA /* UserService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -175,6 +184,9 @@
 			files = (
 				04A342912618C11900783EA8 /* ContentView.swift in Sources */,
 				04A3428F2618C11900783EA8 /* UsingAPIsApp.swift in Sources */,
+				04A812EF261AFFD0004A67CA /* UserService.swift in Sources */,
+				04A342A72618CFEA00783EA8 /* APIService.swift in Sources */,
+				04A812EC261AF96B004A67CA /* User.swift in Sources */,
 				04A342A32618C21A00783EA8 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
